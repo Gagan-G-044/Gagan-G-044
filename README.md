@@ -121,3 +121,14 @@ Technologies used across the projects above:
 <sub>This is a static README. The prompts above are styling only, and nothing here runs commands.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C1C1E,100:14532D&height=100&section=footer" alt="" width="100%">
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/Gagan-G-044/Gagan-G-044/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)"
+            srcset="https://raw.githubusercontent.com/Gagan-G-044/Gagan-G-044/output/github-snake.svg">
+    <img alt="GitHub contribution snake animation"
+         src="https://raw.githubusercontent.com/Gagan-G-044/Gagan-G-044/output/github-snake.svg">
+  </picture>
+</p>
