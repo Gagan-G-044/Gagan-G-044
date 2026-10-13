@@ -1,0 +1,57 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # daily at 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate light snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: github-snake.svg
+          format: svg
+
+      - name: Generate dark snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: github-snake-dark.svg
+          format: svg
+          color_scheme: dark
+
+      - name: Prepare git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Publish SVGs to output branch
+        run: |
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+            git rm -rf .
+          else
+            git checkout --orphan output
+            git reset --hard
+          fi
+
+          git add github-snake.svg github-snake-dark.svg || true
+          git commit -m "chore: update github-snake svgs" || echo "No changes to commit"
+          git push --force origin output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
