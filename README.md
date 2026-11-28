@@ -9,7 +9,7 @@
 </picture>
 
 <a href="https://github.com/Gagan-G-044">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&height=40&lines=Computer+Science+Student+Full-Stack+Developer;Building+practical+software+with+AI+%26+web+technologies;Exploring+intelligent+systems+%26+real-time+applications;Learning+fast+by+building%2C+testing%2C+and+shipping" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&height=40&lines=Computer+Science+Student+%E2%80%A2+AI%2FML+%E2%80%A2+Full-Stack+Developer;Building+practical+software+with+AI+%26+web+technologies;Exploring+intelligent+systems+%26+real-time+applications;Learning+fast+by+building%2C+testing%2C+and+shipping" alt="Typing animation" />
 </a>
 
 <br />
@@ -31,23 +31,17 @@ Computer Science & Engineering undergrad at **GM Institute of Technology, Davang
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h4>🧠 AI & Intelligent Systems</h4>
+    <td width="33%" valign="top">
+      <h4>AI & Intelligent Systems</h4>
       Developing AI-powered assistants, conversational tools, and experimental pipelines—including real-time voice-cloning detection and LLM-backed utilities.
     </td>
-    <td width="50%" valign="top">
-      <h4>🌐 Full-Stack Engineering</h4>
+    <td width="33%" valign="top">
+      <h4>Full-Stack Engineering</h4>
       Building responsive web applications and secure backend APIs using React, TypeScript, Node.js, Express, Flask, and FastAPI.
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📡 Real-Time, Mobile & Geo</h4>
+    <td width="33%" valign="top">
+      <h4>Real-Time, Mobile & Geo</h4>
       Working with WebRTC audio pipelines, cross-platform Flutter interfaces, and geospatial routing using Leaflet.js, OSRM, and weather APIs.
-    </td>
-    <td width="50%" valign="top">
-      <h4>🏆 Hackathons & Shipping</h4>
-      Active builder focused on testing, deployment, and maintainability. Participated in <b>ERROR 404 — Chapter 1 2K26</b> (AI26AG02 track).
     </td>
   </tr>
 </table>
