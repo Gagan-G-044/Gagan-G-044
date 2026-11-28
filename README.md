@@ -9,7 +9,7 @@
 </picture>
 
 <a href="https://github.com/Gagan-G-044">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&height=40&lines=Computer+Science+Student+%E2%80%A2+AI%2FML+%E2%80%A2+Full-Stack+Developer;Building+practical+software+with+AI+%26+web+technologies;Exploring+intelligent+systems+%26+real-time+applications;Learning+fast+by+building%2C+testing%2C+and+shipping" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=16&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&height=40&lines=Computer+Science+Student+Full-Stack+Developer;Building+practical+software+with+AI+%26+web+technologies;Exploring+intelligent+systems+%26+real-time+applications;Learning+fast+by+building%2C+testing%2C+and+shipping" alt="Typing animation" />
 </a>
 
 <br />
